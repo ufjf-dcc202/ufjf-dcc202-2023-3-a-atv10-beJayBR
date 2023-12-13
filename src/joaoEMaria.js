@@ -24,3 +24,13 @@ function setJoao(valor){
         joao = 0;
     }
 }
+
+function deMariaParaJoao(){
+    joao = joao + maria;
+    maria = 0;
+}
+
+function deJoaoParaMaria(){
+    maria = joao + maria;
+    joao = 0;
+}
