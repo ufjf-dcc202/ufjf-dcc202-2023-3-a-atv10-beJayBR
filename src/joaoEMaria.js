@@ -34,3 +34,5 @@ function deJoaoParaMaria(){
     maria = joao + maria;
     joao = 0;
 }
+
+export { getJoao, getMaria, setJoao, setMaria, deJoaoParaMaria, deMariaParaJoao }
